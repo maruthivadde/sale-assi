@@ -1,0 +1,92 @@
+.list-container{
+    list-style-type: none;
+    box-shadow: 4px 0px 16px 0px rgb(137, 137, 245);
+    margin-bottom: 20px;
+    background-color: white;
+    height: auto;
+    width: 40%;
+    border-radius: 20px;
+  
+    padding-bottom: 20px;
+}
+.container{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16ypx;
+    font-weight: 800;
+    margin-left: 90%;
+}
+.review{
+     padding-left: 20px;
+     padding-right: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: rgb(9, 9, 167);
+
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+     margin-left: 20px;
+
+   
+}
+.name-heading{
+    color: rgb(32, 32, 98);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.company-name{
+    color: rgb(106, 50, 20);
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.rating{
+    color: rgb(32, 32, 98);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.stars{
+    color: rgb(237, 155, 72);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.date{
+    color: rgb(241, 106, 106);
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.location{
+    color: rgb(237, 155, 72);
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.loc{
+    color: rgb(237, 155, 72);
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-decoration: none;
+}
+.left-container{
+    margin-right: 40px;
+}
